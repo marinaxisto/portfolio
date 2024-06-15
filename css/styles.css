@@ -5,15 +5,155 @@
   box-sizing: border-box;
 }
 
-/* Basic Stylling */
+/* Basic Styling */
 body,
 html {
   width: 100%;
   height: 100%;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
+  background-color: #121214;
+  color: #e1e1e6;
 }
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Header Styling */
+header {
+  background-color: #202024;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header .title a {
+  color: #e1e1e6;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #e1e1e6;
+  text-decoration: none;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #8257e6;
+}
+
+/* Main Content Styling */
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+  color: #8257e6;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+a {
+  color: #8257e6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #8257e6;
+  color: #e1e1e6;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #6842c2;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #202024;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #202024;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  color: #a8a8b3;
+  font-size: 1em;
 }

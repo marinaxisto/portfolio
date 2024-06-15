@@ -23,26 +23,28 @@
   <body>
     <!-- Header Content -->
     <header>
-      <div class="title">
-        <a href="#home">Marina Xisto</a>
+      <div class="container">
+        <div class="title">
+          <a href="#home">Marina Xisto</a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Get In Touch</a></li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Work</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Get In Touch</a></li>
-        </ul>
-      </nav>
     </header>
     <!-- Main Content -->
     <main>
-      <section id="home">
+      <section id="home" class="container">
         <h1>Welcome to my little box of creations!</h1>
         <p>Blending Technology and Education to innovate learning.</p>
-        <a href="#about" target="_blank">Learn More</a>
+        <a href="#about" class="btn">Learn More</a>
       </section>
-      <section id="about">
+      <section id="about" class="container">
         <h2>About Me</h2>
         <p>
           With over 10 years in the education industry, I am always eager to
@@ -58,36 +60,44 @@
           <p>Based in São Paulo, Brazil.</p>
         </p>
       </section>
-      <section id="projects">
+      <section id="projects" class="container">
         <h2>My Work</h2>
-        <h3>Project 1</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
-          voluptatem dolor eos placeat temporibus? Aliquid possimus in accusamus
-          suscipit, corrupti quis.
-        </p>
-        <a href="#" target="_blank">Repository</a
-        ><a href="#" target="_blank">Demo</a>
-        <h3>Project 2</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
-          voluptatem dolor eos placeat temporibus? Aliquid possimus in accusamus
-          suscipit, corrupti quis.
-        </p>
-        <a href="#" target="_blank">Repository</a
-        ><a href="#" target="_blank">Demo</a>
-        <h3>Project 3</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
-          voluptatem dolor eos placeat temporibus? Aliquid possimus in accusamus
-          suscipit, corrupti quis.
-        </p>
-        <a href="#" target="_blank">Repository</a
-        ><a href="#" target="_blank">Demo</a>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Project 1</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+              voluptatem dolor eos placeat temporibus? Aliquid possimus in
+              accusamus suscipit, corrupti quis.
+            </p>
+            <a href="#" target="_blank">Repository</a>
+            <a href="#" target="_blank">Demo</a>
+          </div>
+          <div class="project-card">
+            <h3>Project 2</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+              voluptatem dolor eos placeat temporibus? Aliquid possimus in
+              accusamus suscipit, corrupti quis.
+            </p>
+            <a href="#" target="_blank">Repository</a>
+            <a href="#" target="_blank">Demo</a>
+          </div>
+          <div class="project-card">
+            <h3>Project 3</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+              voluptatem dolor eos placeat temporibus? Aliquid possimus in
+              accusamus suscipit, corrupti quis.
+            </p>
+            <a href="#" target="_blank">Repository</a>
+            <a href="#" target="_blank">Demo</a>
+          </div>
+        </div>
       </section>
-      <section id="skills">
+      <section id="skills" class="container">
         <h2>Tools & Technologies</h2>
-        <ul>
+        <ul class="skills-grid">
           <li>HTML5 & CSS- Proficiency in structuring web content</li>
           <li>
             JavaScript - Competent in creating dynamic and interactive web
@@ -111,7 +121,7 @@
           </li>
         </ul>
       </section>
-      <section id="contact">
+      <section id="contact" class="container">
         <h2>Let's Connect!</h2>
         <p>
           If you're interested in collaborating or networking, feel free to
@@ -139,7 +149,9 @@
     </main>
     <!-- Footer Content -->
     <footer>
-      <p><em>Good ideas start with coffee and drafts.</em></p>
+      <div class="container">
+        <p><em>Good ideas start with coffee and drafts.</em></p>
+      </div>
     </footer>
   </body>
 </html>
