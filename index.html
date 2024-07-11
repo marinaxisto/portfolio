@@ -45,75 +45,71 @@
     <!-- Main -->
     <main>
       <!-- Home Section -->
-      <section id="home" class="section">
+      <section id="home" class="section hero-section">
         <div class="container">
           <h1>Welcome to my little box of creations!</h1>
-          <p>Blending Technology and Education to innovate learning.</p>
+          <p class="hero-subtitle">
+            Blending Technology and Education to innovate learning.
+          </p>
           <a href="#about" class="btn">Learn More</a>
         </div>
       </section>
       <!-- About Section -->
-      <section id="about" class="section">
-        <div class="container">
-          <h2>About Me</h2>
-          <p>
-            With over 10 years in the education industry, I am always eager to
-            learn and grow. Today, I'm blending my background in Art Education
-            and Instructional Design with my passion for tech, actively pursuing
-            studies in IT.
-          </p>
-          <p>
-            My experience includes creating e-learning and multimedia content at
-            global companies, giving me a special view on user experience,
-            content design and visual storytelling. Now, I'm enhancing my skills
-            in HTML, CSS3, JavaScript, and other technologies.
-          </p>
-          <p>Based in São Paulo, Brazil.</p>
+      <section id="about" class="section about-section">
+        <div class="container about-container">
+          <img
+            src="/assets/profile.JPEG"
+            alt="Your Photo"
+            class="about-photo"
+          />
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+              With over 10 years in the education industry, I am always eager to
+              learn and grow. Today, I'm blending my background in Art Education
+              and Instructional Design with my passion for tech, actively
+              pursuing studies in IT.
+            </p>
+            <p>
+              My experience includes creating e-learning and multimedia content
+              at global companies, giving me a special view on user experience,
+              content design and visual storytelling. Now, I'm enhancing my
+              skills in HTML, CSS3, JavaScript, and other technologies.
+            </p>
+            <p>Based in São Paulo, Brazil.</p>
+          </div>
         </div>
       </section>
       <!-- Projects Section -->
       <section id="projects" class="section">
         <div class="container">
           <h2>My Work</h2>
-          <div class="projects-grid">
+          <div class="projects-list">
             <div class="project-card">
-              <h3>Project 1</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolorem voluptatem dolor eos placeat temporibus.
-              </p>
-              <a href="#" target="_blank" class="btn"
-                ><i class="fab fa-github"></i> Repository</a
-              >
-              <a href="#" target="_blank" class="btn"
-                ><i class="fas fa-external-link-alt"></i> Demo</a
-              >
-            </div>
-            <div class="project-card">
-              <h3>Project 2</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolorem voluptatem dolor eos placeat temporibus.
-              </p>
-              <a href="#" target="_blank" class="btn"
-                ><i class="fab fa-github"></i> Repository</a
-              >
-              <a href="#" target="_blank" class="btn"
-                ><i class="fas fa-external-link-alt"></i> Demo</a
-              >
-            </div>
-            <div class="project-card">
-              <h3>Project 3</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Dolorem voluptatem dolor eos placeat temporibus.
-              </p>
-              <a href="#" target="_blank" class="btn"
-                ><i class="fab fa-github"></i> Repository</a
-              >
-              <a href="#" target="_blank" class="btn"
-                ><i class="fas fa-external-link-alt"></i> Demo</a
-              >
+              <div class="project-content">
+                <h3>DevLinks Project</h3>
+                <p>
+                  DevLinks is a link aggregator to use as an online business
+                  card.
+                </p>
+                <img
+                  src="assets/project-1.jpg"
+                  alt="Project 1 Image"
+                  class="project-image"
+                />
+                <a
+                  href="https://github.com/marinaxisto/links"
+                  target="_blank"
+                  class="btn"
+                  ><i class="fab fa-github"></i> Repository</a
+                >
+                <a
+                  href="https://marinaxisto.github.io/links/"
+                  target="_blank"
+                  class="btn"
+                  ><i class="fas fa-external-link-alt"></i> Demo</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -136,30 +132,35 @@
       <section id="contact" class="section">
         <div class="container">
           <h2>Let's Connect!</h2>
-          <p>
-            If you're interested in collaborating or networking, feel free to
-            reach out!
-          </p>
-          <ul>
-            <li>
-              <strong>Email:</strong>
-              <a href="mailto:marinaxisto@pm.me"
-                ><i class="fas fa-envelope"></i> marinaxisto@pm.me</a
-              >
-            </li>
-            <li>
-              <strong>LinkedIn:</strong>
-              <a href="https://www.linkedin.com/in/marinaxisto/" target="_blank"
-                ><i class="fab fa-linkedin"></i> Visit my LinkedIn</a
-              >
-            </li>
-            <li>
-              <strong>GitHub:</strong>
-              <a href="https://github.com/marinaxisto" target="_blank"
-                ><i class="fab fa-github"></i> Check out my GitHub</a
-              >
-            </li>
-          </ul>
+          <div class="contact-columns">
+            <p>
+              If you're interested in collaborating or networking, feel free to
+              reach out!
+            </p>
+            <ul>
+              <li>
+                <a href="mailto:marinaxisto@pm.me" class="btn"
+                  ><i class="fas fa-envelope"></i> marinaxisto@pm.me</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/marinaxisto/"
+                  target="_blank"
+                  class="btn"
+                  ><i class="fab fa-linkedin"></i> Visit my LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/marinaxisto"
+                  target="_blank"
+                  class="btn"
+                  ><i class="fab fa-github"></i> Check out my GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
